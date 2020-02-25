@@ -1,0 +1,21 @@
+<html>
+    <head>
+      <title> 1 </title>  
+    </head>
+    <body>
+        <script>
+            var menu = {
+ width: 200,
+ height: 300,
+ title: "My menu"
+};
+var keys = {};
+for(var key in menu){
+ element = [];
+ element[key] = menu[key];
+ keys[menu[key]] = element;
+}
+menu = keys;
+        </script>
+    </body>
+</html>
